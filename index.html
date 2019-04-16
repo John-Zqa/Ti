@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    // ES6 / React / JSX code from here
+    const person = {
+        name: 'John',
+        likes: ['apple', 'banana', 'orange'],
+        // sayName: function () {
+        //     console.log(`My name is ${this.name}`);
+        // },
+        // sayName1() {
+        //     console.log(`My name is ${this.name}`);
+        // },
+        sayLikes() {
+            let f = function(like) {
+                console.log(`${this.name} like ${like}`);
+            };
+            this.likes.forEach(f);
+        },
+        sayLikes1() {
+            let self = this;
+            this.likes.forEach(function (like) {
+                console.log(`${self.name} like ${like}`);
+            });
+        },
+        sayLikes2() {
+            this.likes.forEach((like) => {
+                console.log(`${this.name} like ${like}`);
+            });
+        }
+    }
+
+    person.sayLikes();
+
+</script>
+</body>
+</html>
