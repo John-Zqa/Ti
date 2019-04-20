@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="233">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
@@ -100,12 +100,12 @@
       <workItem from="1555035443659" duration="5963000" />
       <workItem from="1555160807016" duration="6000" />
       <workItem from="1555187707767" duration="258000" />
-      <workItem from="1555376595507" duration="559000" />
+      <workItem from="1555376595507" duration="2878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6786000" />
+    <option name="totallyTimeSpent" value="9105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,7 +166,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="233">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
